@@ -66,6 +66,7 @@ body {
   -webkit-font-smoothing: antialiased;
   transition: background-color .25s ease, color .25s ease;
 }
+[hidden] { display: none !important; }
 img { max-width: 100%; height: auto; display: block; }
 a { color: inherit; text-decoration-color: color-mix(in srgb, currentColor 35%, transparent); text-underline-offset: 3px; }
 a:hover { color: var(--signal); }
