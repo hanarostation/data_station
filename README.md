@@ -14,6 +14,7 @@ index.html          Home
 about.html          About (이력 · 프로젝트 · 논문 · 자격)
 education.html      AX/DX Education (강의 이력·분야 / 커리큘럼 예시)
 consulting.html     Consulting (방법론 · 사례 · 국방/정보 분석)
+application.html    Application (직접 개발한 서비스 6종 소개)
 superschool.html    SuperSchool
 dsa.html            DSA (Data Station Academy)
 contact.html        Contact (문의 폼)
@@ -83,6 +84,7 @@ nslookup www.data-station.co.kr
 | 문의 메일 받는 주소 변경 | `contact.html` 의 `data-to="..."` 와 이메일 링크 |
 | 메뉴 · 푸터 문구 변경 | 각 HTML 파일 상단 `<header>` · 하단 `<footer>` (모든 페이지 동일하게) |
 | 협력사 로고 추가 | 로고를 `assets/img/partners/` 에 넣고 `index.html` 의 `.logos` 안에 `logo-tile` 한 줄 추가 |
+| 개발 서비스 추가 | 캡처를 `assets/img/apps/` 에 webp로 넣고 `application.html` 에 `<section>` 하나와 상단 `.app-grid` 카드 추가, `index.html` 의 `#build` 카드도 함께 추가 |
 | 강의 이력 추가 | `education.html` 의 `#lectures` 목록에 `<li data-cat="mfg|fin|pub|univ|kdt">` 추가 후 필터 버튼 숫자 수정 |
 | 색상 · 글꼴 | `assets/css/style.css` 맨 위 `:root` (주간) · `[data-theme="dark"]` (야간) 변수 |
 | 공유 미리보기 이미지 | `assets/img/brand/og.png` (1200×630) |
